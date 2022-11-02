@@ -6,4 +6,4 @@ fields:
   type: text
   config:
     required: false
-  label: name
+  label: author name
