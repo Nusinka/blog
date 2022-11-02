@@ -32,7 +32,9 @@ fields:
     display_utc: false
 - name: category
   type: tag_list
-  default: []
+  default:
+  - features
+  - game
   label: Category
 pages:
 - src/content/posts/title.md
