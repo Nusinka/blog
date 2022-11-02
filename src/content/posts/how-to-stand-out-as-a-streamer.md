@@ -7,6 +7,7 @@ description: We've put together five simple tips to help you stand out from the 
   of content creators. How to be striking as a streamer. How to distinct from other
   streamers.
 publication_date: 2022-11-16T22:00:00Z
+author: src/content/authors/alina.md
 
 ---
 We’ve already covered this a lot: how do you set up a stream and attract an audience. However, it is very important not to forget that the viewers coming to your channel must be kept interested, and for this purpose it is necessary to stand out among others. We've put together five simple tips to help you stand out from the crowd of content creators. And even if you’re already familiar with some of these tips, but you may have still not used them, you should definitely try those out. Do not neglect the working methods of retaining the audience and climb to the top of the streamers crowd!
