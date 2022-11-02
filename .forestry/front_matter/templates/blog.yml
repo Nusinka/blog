@@ -36,6 +36,18 @@ fields:
   - features
   - game
   label: Category
+- name: author
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: authors
+      file: 
+      path: 
+  label: Author
 pages:
 - src/content/posts/how-to-stand-out-as-a-streamer.md
 - src/content/posts/title.md
