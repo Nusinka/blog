@@ -7,3 +7,8 @@ fields:
   config:
     required: false
   label: author name
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: avatar
