@@ -2,22 +2,16 @@
 label: blog
 hide_body: false
 fields:
-- name: name
+- name: title
   type: text
   config:
     required: false
-  label: Name
-  hidden: false
+  label: Title
 - name: background_image
   type: file
   config:
     maxSize: 64
   label: Background image
-- name: title
-  type: text
-  config:
-    required: false
-  label: title
 - name: description
   type: textarea
   default: ''
