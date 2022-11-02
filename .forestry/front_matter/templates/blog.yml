@@ -37,4 +37,5 @@ fields:
   - game
   label: Category
 pages:
+- src/content/posts/how-to-stand-out-as-a-streamer.md
 - src/content/posts/title.md
