@@ -36,10 +36,9 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: author
-  type: include
-  config: {}
-  template: author
-  label: author
+- name: category
+  type: tag_list
+  default: []
+  label: Category
 pages:
 - src/content/posts/title.md
