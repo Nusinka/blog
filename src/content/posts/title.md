@@ -4,10 +4,12 @@ background_image: "/static/uploads/serze.jpeg"
 title: Should you stream every day?
 description: What's wrong with streaming daily. The best streaming schedule. How often
   I should stream.
-publication_date: 2022-11-15T22:00:00.000+00:00
+publication_date: Nov 15 2022
 category:
 - fea
 author: src/content/authors/alina.md
+author_name: Alina Sheliakina
+author_avatar: "/static/uploads/alina.jpeg"
 
 ---
 We’ve got a hot topic for analysis: how often should you go live? There's an ongoing discussion on this topic within the community. Some believe that **daily streaming** is one way to grow one’s audience faster, while others believe it’s better to cut the number of times one goes online, and rather to pay more attention to preparation and the content itself. So what's the best way to arrange your streaming schedule? Let’s consider all the **pros and cons of daily streams** and come to a conclusion together.
