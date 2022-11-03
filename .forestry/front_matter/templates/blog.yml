@@ -31,24 +31,16 @@ fields:
     time_format: 
     display_utc: false
     export_format: MMM DD YYYY
-- name: category
-  type: tag_list
-  default:
-  - features
-  - game
-  label: Category
-- name: author
-  type: select
-  default: ''
+- name: author_name
+  type: text
   config:
     required: false
-    options: []
-    source:
-      type: pages
-      section: authors
-      file: 
-      path: 
-  label: Author
+  label: Author name
+- name: author_avatar
+  type: file
+  config:
+    maxSize: 64
+  label: Author avatar
 pages:
 - src/content/posts/how-to-stand-out-as-a-streamer.md
 - src/content/posts/title.md
