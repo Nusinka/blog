@@ -12,13 +12,6 @@ sections:
   templates:
   - blog
 - type: directory
-  path: src/content/authors
-  label: Authors
-  create: all
-  match: "**/*"
-  templates:
-  - author
-- type: directory
   path: src/content/posts
   label: Posts
   create: documents
