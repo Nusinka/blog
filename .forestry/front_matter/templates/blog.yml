@@ -5,7 +5,7 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Title
 - name: background_image
   type: file
@@ -16,7 +16,7 @@ fields:
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
@@ -26,15 +26,16 @@ fields:
   label: Publication date
   description: ''
   config:
-    required: false
+    required: true
     date_format: 
     time_format: 
     display_utc: false
-    export_format: MMM DD YYYY
+    export_format: ''
+  default: now
 - name: author_name
   type: text
   config:
-    required: false
+    required: true
   label: Author name
 - name: author_avatar
   type: file
