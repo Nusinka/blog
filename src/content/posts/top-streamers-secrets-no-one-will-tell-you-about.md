@@ -11,7 +11,7 @@ author_avatar: "/static/uploads/alina.jpeg"
 ---
 Do the top streamers know some secrets or are they just lucky? The answer is definitely yes, they do know something. But the point is it’s not some kind of secrecy, but rather a complex approach and the use of tricks that differ giants from ordinary hard workers. If you listen to their advice and use the experience gained over the years, you can master professional tricks and become an outstanding content creator.
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HRGp2o6Hw1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HRGp2o6Hw1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Be innovative.** You won’t become the TOP-1 streamer if you keep on doing what has already been done before. You can stream games like **Ninja** does, only now they will watch him, not you, because he’s become the best in his niche. Therefore, if you’re going to broadcast a game that was shown by hundreds of thousands of guys before you, come up with a way to do it differently. Getting into a Jacuzzi in a swimsuit is no longer enough to make a million dollars a month like **Amouranth**. You simply have to create a format that no one has implemented before you. You can be inspired by someone else's example, but be sure to improve the idea and bring to the viewers some unique content that they can get on your channel only.
 
