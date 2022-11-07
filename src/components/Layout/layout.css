@@ -21,7 +21,7 @@
   --space-4: 24px;
   --space-5: 32px;
   --space-6: 64px;
-  --size-content: 54rem;
+  --size-content: 1200px;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
 }
@@ -43,6 +43,12 @@ body {
   margin: 0;
   word-wrap: break-word;
 }
+#gatsby-focus-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*
 a {
   background-color: transparent;
   color: var(--color-primary);
@@ -79,11 +85,12 @@ h1 {
 }
 h1 > b {
   color: var(--color-primary);
-}
+}*/
 img {
   border-style: none;
-  max-width: 100%;
+  width: 100%;
 }
+/*
 code,
 kbd,
 pre,
@@ -114,7 +121,6 @@ hr {
   box-sizing: inherit;
 }
 hgroup,
-img,
 figure,
 fieldset,
 ul,
@@ -222,3 +228,4 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+*/
