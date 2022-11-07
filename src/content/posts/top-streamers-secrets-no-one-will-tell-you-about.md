@@ -1,5 +1,5 @@
 ---
-publication_date: 2022-11-05T12:26:04Z
+publication_date: 2022-11-07T12:26:04Z
 title: Top streamers’ secrets no one will tell you about
 background_image: "/static/uploads/blog-1.png"
 description: Top secrets NOBODY tells yo about being a big twitch streamer. What Twitch
