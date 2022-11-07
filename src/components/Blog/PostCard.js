@@ -9,6 +9,7 @@ export function PostCard(prop) {
   const {
     node: {
       frontmatter,
+      timeToRead,
       fields: { slug },
     },
   } = prop;
@@ -17,6 +18,7 @@ export function PostCard(prop) {
     name: frontmatter.author_name,
     avatar: frontmatter.author_avatar,
     date: frontmatter.publication_date,
+    timeToRead,
   };
 
   return (

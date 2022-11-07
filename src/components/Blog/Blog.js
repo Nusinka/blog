@@ -14,6 +14,7 @@ export default function BlogPage() {
             fields {
               slug
             }
+            timeToRead
             frontmatter {
               title
               background_image {
