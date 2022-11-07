@@ -23,7 +23,7 @@ export default function BlogPage() {
                 }
               }
               description
-              publication_date
+              publication_date(formatString: "MMM D YYYY")
               author_name
               author_avatar {
                 childImageSharp {

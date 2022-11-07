@@ -1,9 +1,8 @@
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { PostWrapper } from "./PostWrapper";
-import { PostCardTitle } from "../PostCardTitle";
-import { PostCardDescription } from "../PostCardDescription";
-import AuthorBlock from "../Author/AuthorBlock";
 import React from "react";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { PostWrapper } from "./";
+import { PostCardTitle, PostCardDescription } from "../";
+import AuthorBlock from "../Author/AuthorBlock";
 
 export function PostCard(prop) {
   const {

@@ -24,7 +24,8 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/src/content/blog`,
       },
-    },    {
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
@@ -49,6 +50,7 @@ module.exports = {
               maxWidth: 590,
             },
           },
+          `gatsby-remark-responsive-iframe`,
         ],
       },
     },
@@ -67,4 +69,4 @@ module.exports = {
       },
     },
   ],
-}
+};
