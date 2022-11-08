@@ -1,0 +1,15 @@
+{
+  "title": "Drope.me Blog",
+  "description": "How to grow with giveaways: create drops for twitch or youtube influencers",
+  "repository_url": "https://github.com/gatsbyjs/gatsby-starter-default",
+  "homeUrl": "https://drope.me/",
+  "siteUrl": "https://blog.drope.me/",
+  "twitterUsername": "@drope_me",
+  "author": "Drope.me",
+  "image": "/drope-icon.png",
+  "socials": {
+    "facebook": "https://www.facebook.com/Drope.me",
+    "linkedin": "https://www.linkedin.com/company/dropeme",
+    "twitter": "https://twitter.com/drope_me"
+  }
+}

@@ -1,20 +1,15 @@
 import React from "react";
-import styled from "styled-components";
-import LogoSvg from "../../images/logo.svg";
+import { HeaderWrapper } from "./HeaderWrapper";
 import { Container } from "../Container";
+import LogoSvg from "../../images/logo.svg";
+import config from "../../../config.json";
 
-const HeaderWrapper = styled.header`
-  background-color: rgb(10, 13, 20);
-  display: flex;
-  height: 65px;
-`;
-
-export default function Header() {
+export function Header() {
   return (
     <HeaderWrapper>
       <Container>
-        <a href="https://drope.me/">
-          <img src={LogoSvg} alt="Drope.me" />
+        <a href={config.homeUrl}>
+          <img src={LogoSvg} alt={config.author} />
         </a>
         <div />
       </Container>

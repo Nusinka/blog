@@ -1,9 +1,13 @@
+const config = require("./config.json")
+
 module.exports = {
   siteMetadata: {
-    title: `Drope.me blog`,
-    description: `Gaming Experiences for Pro gamers, Streamers and their Fans - Drope.me`,
-    author: `Drope.me`,
-    siteUrl: `https://drope.me/`,
+    title: config.title,
+    description: config.description,
+    author: config.author,
+    siteUrl: config.siteUrl,
+    twitterUsername: config.twitterUsername,
+    image: config.image,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -60,12 +64,26 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `rgb(10,13,20)`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-mobile.svg`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "UA-163648176-2", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
       },
     },
   ],

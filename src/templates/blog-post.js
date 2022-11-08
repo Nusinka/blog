@@ -1,8 +1,8 @@
 import * as React from "react";
 import { graphql } from "gatsby";
+import { getImage } from "gatsby-plugin-image";
 import { BackButton, Layout } from "../components";
 import AuthorBlock from "../components/Author/AuthorBlock";
-import { getImage } from "gatsby-plugin-image";
 import {
   PostMainImage,
   MainContent,
@@ -10,6 +10,7 @@ import {
   PostTitle,
   PostWrapper,
 } from "../components/Post";
+import Seo from "../components/seo";
 
 export const query = graphql`
   query ($slug: String!) {
@@ -60,3 +61,8 @@ const BlogPost = ({ data: { markdownRemark } }) => {
   );
 };
 export default BlogPost;
+
+export const Head = ({ data }) => {
+  const title = data?.markdownRemark?.frontmatter?.title;
+  return <Seo title={title} />;
+};

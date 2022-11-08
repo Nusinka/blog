@@ -1,22 +1,15 @@
 import * as React from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import { Header, Footer } from "../";
+import { ContentWrapper } from "./ContentWrapper";
 import "./layout.css";
 
 export const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-          flex: 1,
-        }}
-      >
+      <ContentWrapper>
         <main>{children}</main>
-      </div>
+      </ContentWrapper>
       <Footer />
     </>
   );
