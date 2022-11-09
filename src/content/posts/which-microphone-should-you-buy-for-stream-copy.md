@@ -21,3 +21,7 @@ But before that, let's look at one important definition. What is frequency range
 ![](https://blog.organization.gg/blog/content/images/2022/05/f7e7f84a-9ee4-4e0a-91e7-bd207941d2cf_1.b73ac03456109cff2730978d2fb155f0.jpeg)
 
 <iframe src="[https://clips.twitch.tv/embed?clip=ResoluteToughCoyoteRiPepperonis-7v-9eqnKef5lH6a-&parent=www.example.com](https://clips.twitch.tv/embed?clip=ResoluteToughCoyoteRiPepperonis-7v-9eqnKef5lH6a-&parent=www.example.com "https://clips.twitch.tv/embed?clip=ResoluteToughCoyoteRiPepperonis-7v-9eqnKef5lH6a-&parent=www.example.com")" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+!---------------------------------------------------------------------------------------------------------!
+
+[https://clips.twitch.tv/ResoluteToughCoyoteRiPepperonis-7v-9eqnKef5lH6a-](https://clips.twitch.tv/ResoluteToughCoyoteRiPepperonis-7v-9eqnKef5lH6a- "https://clips.twitch.tv/ResoluteToughCoyoteRiPepperonis-7v-9eqnKef5lH6a-")
